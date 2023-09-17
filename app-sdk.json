@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "quiz-app-9ea17",
+  "private_key_id": "13c34f271b8639be06ec227149ff34d8a1b6d08e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfF1Of9qKsp481\nR/o7LEG/9QHWzRraM5CtUEl37VKpExQjr2hGQuK+GRjpmbKigGrVfYCribVtjuq7\n/QwhuDJZ0ODxQhgNQM7sFSuphC/px1Y6Tzq5VzRYBT1VRa7sMwKB6K1qwFy+fSdG\nDl8meqyqbG6aKhj6nJ780MxrUtASQITRC/x9RwCCOOXiHe+pGGLsyF0j/5vWUhm9\nmPCF5HptdIfc5zpSMlTqm6+hPhRrtfPVwZO7l8Qc4Zbixe/9dJZ+pdJhmXWuM8Pv\nOtul0y0q9W132mBm58jfj/O+zNiQzD0W1IOG0YjKmt2DlREH4Jw2N+pfrT5oatpl\nxoRyQt+7AgMBAAECggEAFFDVQ/sp4ORw3Dv5z26iYtH1zylYAX9OPWOgTilHQgIG\ns1vl8/r8m4v263XOIwRFIEgrkzw9p+T1QtZYo0GzZFbRMt3e1mptQiad8cLIn5Du\nCPovJJXnQEpC/82rPcxxyIcfBh/UeBrhVgflzLMjs4uvQA6aK/6uKti7EgV8Pqg8\n0xRLS1oayXIynQQ7MiNOTV/3dnjJd5IPEzrrvelnXBnLUav7IzZZyni9O9KXKubN\n6+L3XXILSVVYyhe/qAv5Gm3W2iq9dWhthL3c3UvSfFE+LNmezFk3ts8g2J9h8lwE\nWO7NBhqwkiy93htMCcIiRTD0qyc5zzceVo0IFMjMmQKBgQDbuJWFHnRiKkupr8YY\nMl1W5SGXIyCFZqnlG+Vr6piSXrXwG9FLWonDopobnRTcOE8ejwBbBgrVswpoIzfi\nDIsNusd841+23WwR+X8ApcfezWjbK1aPR3VMpiwqSneDL+uIq51GQ7ZBjQhObtyH\ng/DuJiNB/Z+0P/aXmxA0PuBMlQKBgQC5W/gfOTdvliU2GlXgoRTIKZjcQkNkHxmU\nXdrTaMJHJMOQ41YVqBynKGwJhbYNTMLKD0UFrIt4oknjTVly6/+tF7cEtQXoiNaI\nedYc6i68JTZbPFbsQZ1ehXg7IY1iyMo7Es8N4e8OcNSJyy3+q3uQGy14Q1g9RjBd\n52S2fwkXDwKBgETW5xmm+gXLhJssdB8eoHnaHhURL148VRxwCggunxC01cHdpUw7\nmJAPwMLIC0IX7kn/ubfLA9gCWU9ZQWf0UBjEHT42qsVLSFG1XqIgTqeyqZiJUnxf\nghO6uHmjjSAwAlZ2ljbufgq5mhGg0D0xDGpAzqkdQk0iAStsrL4BuRqlAoGAC6To\naGW6wsrG2ag73tmfqZdbX/LVsvN1MunWdlNtaPS5SF/Pp5qg+itC5jI9Joa88d6V\nsm6NcG2ZgKr6RIroy+HigGwyy9HU0Ev/FF/twaoAySh4OW1Byo9N50ELVbpRYfaj\nhTa9QsX5xBI8eHQjVgEvERAB+g9vuGZx4DkIxCcCgYA/LLW3LdNLQ5EUauH0Ohx/\n+6a6/03O27BC0/WEG4gpAq2qoAGi/DhPGTGv91I7+6k4RHMglt4QAaxyGwAb0kPp\nw3UZ9LOcU/7AoPQR+2krxmdwYn0y8I9JuveSn5utZfjfJdJhiuCFtQb617ATDPGs\nibZ6Xv8FLFbMuQPtVfeOpg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-lw466@quiz-app-9ea17.iam.gserviceaccount.com",
+  "client_id": "113842370301693450916",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-lw466%40quiz-app-9ea17.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
