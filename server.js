@@ -6,13 +6,9 @@ const admin = require('firebase-admin');
 require('dotenv').config({path: './.env'})
 
 // Initialize the app with a service account, granting admin privileges
-
+const SERVCE_ACCOUNT = JSON.parse(process.env.SERVCE_ACCOUNT);
 admin.initializeApp({
-    credential: admin.credential.cert({
-        "projectId": process.env.FIREBASE_PROJECT_ID,
-        "private_key": process.env.FIREBASE_PRIVATE_KEY,
-        "client_email": process.env.FIREBASE_CLIENT_EMAIL,
-    }),
+    credential: admin.credential.cert(SERVCE_ACCOUNT),
     databaseURL: process.env.FIREBASE_DB_URL
 });
 
