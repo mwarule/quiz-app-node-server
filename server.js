@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors");
 const app = express();
 const http = require('http');
 const server = http.createServer(app);
@@ -16,12 +15,6 @@ admin.initializeApp({
     }),
     databaseURL: process.env.FIREBASE_DB_URL
 });
-
-var corsOptions = {
-  origin: process.env.CORS_URL,
-};
-
-app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
 app.use(express.json());
