@@ -3,14 +3,14 @@ const app = express();
 const http = require('http');
 const server = http.createServer(app);
 const admin = require('firebase-admin');
-require('dotenv').config({path: './.env.development'})
+require('dotenv').config({path: './.env'})
 
 // Initialize the app with a service account, granting admin privileges
 
 admin.initializeApp({
     credential: admin.credential.cert({
         "projectId": process.env.FIREBASE_PROJECT_ID,
-        "private_key": process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+        "private_key": process.env.FIREBASE_PRIVATE_KEY,
         "client_email": process.env.FIREBASE_CLIENT_EMAIL,
     }),
     databaseURL: process.env.FIREBASE_DB_URL
