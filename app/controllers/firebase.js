@@ -1,12 +1,11 @@
-const admin = require('firebase-admin');
+const clerk = require('@clerk/clerk-sdk-node');
+
 exports.setAdmin = (req, res) => {
-    admin
-    .auth()
-  .setCustomUserClaims(req.body.uid, { admin: true })
-  .then(() => {
-    res.send({ message: "success" });
+  const users = clerk.users.getUserList();
+  users.then(u => {
+    res.send({ users: u});
   })
   .catch(error => {
     res.status(500).send({ message: error });
-  });
+  })
 };

@@ -9,7 +9,7 @@ module.exports = function(app) {
     next();
   });
 
-  app.put(
+  app.get(
     '/api/admin/set',
     controller.setAdmin
   );
